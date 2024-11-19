@@ -13,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.food_app.MainActivity;
+import com.example.food_app.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class CartListActivity extends AppCompatActivity {
@@ -52,7 +54,7 @@ public class CartListActivity extends AppCompatActivity {
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CartListActivity.this,MainActivity.class));
+                startActivity(new Intent(CartListActivity.this, MainActivity.class));
             }
         });
 
